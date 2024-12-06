@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: #1a75cf;
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo p {
+    color: #1a75cf;
+    font-size: 12px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a75cf;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #007bff;
+    color: white;
+}
+
+.about, .philosophy {
+    width: 45%;
+    background-color: #e6f2ff;
+    padding: 20px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.about h2, .philosophy h2 {
+    color: #1a75cf;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about h3, .philosophy h3 {
+    color: #1a75cf;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.about p, .philosophy p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.about ul, .philosophy ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #1a75cf;
+}
+
+.mission {
+    background-color: #d0e8ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    font-size: 12px;
+}

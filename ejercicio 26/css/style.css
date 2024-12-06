@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #1b0bff;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #07cdff;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(253, 107, 9);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+/* Carrusel */
+.carousel {
+    position: relative;
+    background-color: #3399ff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.carousel-image {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+}
+
+.carousel-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.carousel-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel-text h2 {
+    margin: 0;
+}
+
+.carousel-dots {
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.dot.active {
+    background-color: #0056b3;
+}
+
+
+.about {
+    padding: 20px;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+    color: #004da1;
+}
+
+footer {
+    background-color: #ffdb11;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
